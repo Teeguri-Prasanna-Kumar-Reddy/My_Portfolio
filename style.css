@@ -1,0 +1,251 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.gif'); /* Replace 'path/to/your/background.gif' with the actual path to your GIF image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    /* max-width: 100px; */
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .about-section {
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 20px;
+    width: 1000px;
+  }
+
+  .about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .about-text{
+    color: #fff;
+  }
+
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #333;
+    margin-bottom: 20px;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  .profile-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .about-text {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  
+
+
+
+  
+  .projects-section {
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #333;
+    border-radius: 20px;
+    width: 1000px;
+    padding: 20px;
+  }
+
+
+  .projects-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .card {
+    width: 300px;
+    margin: 0 auto 20px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* padding: 10px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 550px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .card:last-child {
+    margin-right: 0; /* Remove margin from last card to prevent extra space */
+  }
+
+
+  .card-body {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2rem; /* Increased font size */
+    color: #333; /* Changed text color */
+  }
+
+  .card-text {
+    margin-bottom: 15px;
+    color: #666; /* Changed text color */
+  }
+
+  .card-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #007bff;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease;
+    margin: 10px;
+  }
+
+  .card-link:hover {
+    border-bottom: 1px solid #007bff;
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+      margin-right: 0; /* Remove margin between cards on smaller screens */
+      margin-bottom: 20px; /* Add margin below each card on smaller screens */
+    }
+  }
+    /* Added margin between columns */
+    .projects-section .row [class^="col-"] {
+        margin-right: 20px;
+      }
+
+
+
+
+      .skills-section {
+        text-align: center;
+        margin-bottom: 50px;
+        background-color: #333;
+        border-radius: 20px;
+        width: 1000px;
+        padding: 20px;
+      }
+    
+      .skills-section h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #fff;
+      }
+    
+
+
+          /* Added margin between columns */
+    .skills-section .row [class^="col-"] {
+      margin-right: 20px;
+    }
+
+
+
+
+
+      .contact-section {
+        text-align: center;
+        background-color: #343a40;
+        color: #fff;
+        padding: 50px 0;
+        border-radius: 20px;
+        width: 1000px;
+      }
+    
+      .contact-section h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+      }
+    
+      .contact-info {
+        margin-bottom: 30px;
+      }
+    
+      .contact-info i {
+        font-size: 24px;
+        margin-right: 10px;
+      }
+    
+      .social-icons {
+        margin-top: 20px;
+      }
+    
+      .social-icons .btn {
+        background-color: #f50057;
+        border: none;
+        margin-right: 10px;
+      }
+    
+      .social-icons .btn:hover {
+        background-color: #c51162;
+      }
+
+      .social-icons .btn img {
+        width: 20px;
+        height: 20px;
+      }
+
+
+
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+      }
+    
+   /* Header styles */
+   .header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+
+  .header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+    
+      /* Main content container */
+      .container {
+        margin-top: 20px;
+      }
+    
+      /* Footer styles */
+      .footer {
+        background-color: #343a40;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
